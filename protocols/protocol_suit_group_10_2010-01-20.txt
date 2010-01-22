@@ -1,0 +1,16 @@
+- Roles within the group: 
+
+Project Manager - Sebastian/Martin 
+Test/Quality Manager - Vamsi/Hans 
+Graphical Designer - Henrik/Jonas 
+Database Designer - Jonas/Henrik 
+Software Architect - Martin/Hans 
+Clerical - Rotation of whole group
+
+- TODO until Friday (1/22):
+   * Read requirements document 
+   * Read about respective roles 
+   * Preparation for DG0 checklist + Project DIrectives document 
+   * Prepare a plan for executing respective role
+   * Send checklist to Sebastian before Friday 
+   * (Martin) Fix Google Code repository 
