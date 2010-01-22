@@ -1,0 +1,18 @@
+* Report bugs/issues reported in Google Code Issue Tracker (found on 
+the Google Code page) 
+* Group roles will be submitted today by Sebastian 
+* Group Agreement will be submitted today by Sebastian 
+* All members will be added to the Google Code Project today 
+* Sebastian has made a structure in the SVN repository 
+* Hans will book a group room (5207) 
+* Martin will add meeting to the Google Calendar 
+
+Next week: 
+* Meeting Monday 2010-01-25 08:00 
+* Discuss Project Directives 
+* (Martin & Hans) Keep infrastructure in mind when breaking down 
+* Sebastian working on organization and internal deadlines 
+* Agree on DG0 on Monday, should be ready to submit then, deadline on 
+Tuesday 
+* Sebastian will look into the gantt charts 
+* (Martin) Post meeting to SVN 
