@@ -1,0 +1,52 @@
+﻿Background 
+CentralOperative & Independent Retailers Acquirer (Coira) is an enterprise with a number of retailers in large parts of the western world. Coira deals in a number of unspecified products and wishes to expand to the rest of the world through a web-based portal, called "the Unlimited Well (UW)". To achieve this, Coira want to create systems for handling retail, customer purchases and logistics, all of which should utilize existing systems, such as Coiras existing financial system. Coira has contacted "insert company name here" to produce these systems.
+
+
+
+Basic concept 
+Coira wants a web-based portal where customers from all corners of the world can purchase products. This portal should consist of three parts. The portal itself, called MUW, that contains the interface towards the customer and the database of available products. A system for handling the suppliers and the purchases, called PUW, that contains the
+list of approved suppliers and their products. And a system for transporters and logistics, called LUW, that contains all approved transporters and there routes. These systems cooperate so that when a customer orders something through MUW, a request is sent to PUW to order the goods from the supplier and a separate request is sent to LUW to book a transport for the purchased goods from the supplier to the customer. All systems should be available 99,999% of the time. 
+All systems must be secure and the integrity of customers, suppliers and transporters must have the highest priority. 
+
+MUW handles all interaction with the customer. MUW displays all available products, their price and how long it will take to deliver. MUW also handles the customers orders, displays information and options about orders, such as where they are and if there is any problems, and notifies the customer if there is any hiccups along the way. MUW's graphical interface will provide context-sensitive help at all levels of the interface. At purchase, MUW should find an optimal combination of supplier and transporter. MUW contains the database of available products, their status and suppliers, as well as the customer register. MUW must support several languages and it must be easy to extend the number of languages supported. MUW will also collect statistics about purchases and use these to make predictions about demands and ask PUW to make sure that there is enough supply to satisfy the demand.
+
+
+PUW is, upon purchase,  to contact the chosen supplier and book the product purchased. PUW will also keep track of suppliers and update there status in MUW's database. PUW will select suppliers that should undergo a quality review given certain conditions. PUW also has to notify Coira employees if there is not enough suppliers in the system to meet the demand as predicted by MUW, so that new suppliers may be acquired. PUW will also handle delivery notes and send all required data to Coiras financial system. 
+
+LUW will be responsible for handling logistics and transportation and keeps track of transporters and there routes. Upon purchase,  LUW will book suitable transportation and produce all the needed papers, such as bills of laden and import licenses. LUW is responsible for updating the status of orders and where a particular order is physically. To be able to do this, LUW must accept input from a number of different sources so that the companies that handle the actual transport can update regardless of internal system used. LUW shall utilize a GIS company to compute distances and time consumption. LUW must also make sure that each transport is as profitable as possible with very few, but existing,  exceptions. LUW must also allow independent transporters to use the system to plan transports and routes. This includes transports that have nothing to do with Coira. In this case the system is called "Logistics at Transporters (LaT)". In case the system is used this way, the content in the transporters area must be exclusive to that transporter. LUW should notify MUW and Coira personnel in case any hiccups occur.
+
+
+
+Purpose 
+To be able to reach and service worldwide customers and to streamline and enhance the process from placed order to delivery, in a way that is as cost efficient and fast as possible 
+
+
+Goal 
+To produce a system with a web portal based interface, that customers from all over the world can use to place an order for all items offered by Coira. At the same time, taking into regard the suppliers ability to supply the goods and the logistics of delivering the ordered items to the customer. The system should be easy to deploy and should scale in order to handle an increasing number of orders. The system should meet the usability properties specified, to ensure high customer satisfaction.
+
+
+
+Description of project - Henrik responsible (and very confused).
+
+The project will be to develop a software based project for the describes purpose, based on a number of core subsystems, MUW, PUW and LUW.  These will work together to ensure a cost efficient and fast way of placing orders.
+
+To be able to reach the quallities aimed for, the process used includes carefull documentation resulting in a final report. .
+To keep better order, seven decission gates will be used thorugh out the project. The decision gates Therefore we use decission gates to keep
+A final report will be delivered, consisting of
+Skriva att vi ska använda oss av dokumentation?
+Hur projektet kommer gå till rent praktiskt?
+Will use sufficient logics to bring optimality to the transmition of information between PUW and LUW.
+
+ Will be organized around decision gates
+(DGs): DG0 - DG6
+ Pre-specified activities must be scheduled
+ Pre-specified deliverables be produced.
+ Challenge is to pass 7 decision gates in a prepalnned
+and controlled manner.
+
+It is assumed that all team members are assigned one or more (backup)
+tasks in addition to a main responsibility area.
+
+meetings: ~200
+editorial tasks: ~170
+development: ~280
