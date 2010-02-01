@@ -1,0 +1,16 @@
+This was the meeting with Per, when he finally showed up. 
+Due to the problems with the groups the submission deadlines that has 
+passed will be moved to this afternoon (thursday) 
+Per also said that we can just do a part of one component due to the 
+time limit. 
+In the project plan we can remove the "change planning" and "Quality 
+plan" can be removed. 
+When the project directives are submitted the one submitted it will
+get an OK in studieportalen, nothing will be sent to the whole group. 
+The deadline for the project plan is the 5th 23:00 but that's
+according to our internal deadline so it will be done by then. 
+Per also wants a time schedule attached to the project plan, Sebastian  is working on that. 
+All the use cases that we want to implement we should write text and
+flow charts and so on for. But no need to come up with ones that we don't want to implement. 
+We had a question about the headline Design requirement but that was
+just a fanzy word for non-functional requirement. 
