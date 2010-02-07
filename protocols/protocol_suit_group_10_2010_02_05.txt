@@ -1,0 +1,14 @@
+Seb and Martin upload dg1 stuff with some minor changes to the documents
+
+SRS needs a readthrough and some small fixes - pass anyway
+
+Passed dg2 - yay
+
+Next task: development planing
+	   diagramms etc, concentrating on the muw part
+	   Test plan
+	   
+
+Next meeting: mon at 10 in 5205
+
+/your friendly cleric... 
