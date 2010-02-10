@@ -1,0 +1,16 @@
+
+Per looked through the Project Plan and SRS.
+
+The requirements analysis must generate layers.
+
+Per reminds us about swebok for definitions etc.
+
+Some suppliers will have their own transports available and some will not. Consider this.
+
+Usecases: will need to consider more details about subsystems.
+
+Per: Development plan / other documents containing "written-before-material" - you always copy paste to make each document fully understandable on its own - but with as less burden as possible.
+
+Todo: detail the lifecycle in the project plan. Split into three (one per iteration).
+
+No need for time planning for the tasks/phases outside of this course.
