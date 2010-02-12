@@ -1,0 +1,10 @@
+PMs' computer died.
+
+PM has finished development plan, only missing appendix and some small changes. Will be made by PM this weekend.
+
+Time plan is finished and will be appendixed to the development plan.
+
+Meeting booked for wednesday the 17 th. Note that the design phase end that day.
+
+Hans and Martin are discussing wether to use drupal modules for making PUW and LUW or build them separate.
+
