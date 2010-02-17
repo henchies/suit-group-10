@@ -1,0 +1,16 @@
+Protocol - 2010-02-17 - Company 10
+---------------------------------------------------
+
+* DG4 PASSED
+
+* Until next meeting:
+
+Sebastian - Omnify domain model, and create class diagram, finish imp proposal, SOAP interface diagrams/definitions
+
+Jonas - Task 19-20 of dev plan
+
+Martin/Hans - Drupal modules & SOAP interface
+
+Henrik - GUI Customization
+
+Hans - Omnification galore
