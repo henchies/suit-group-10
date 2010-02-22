@@ -1,0 +1,6 @@
+DROP TABLE uw_ships;
+DROP TABLE uw_suppliers_products;
+DROP TABLE uw_routes;
+DROP TABLE uw_preferred;
+DROP TABLE uw_transporter;
+DROP TABLE uw_supplier;
