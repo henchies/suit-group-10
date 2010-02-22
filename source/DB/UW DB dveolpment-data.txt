@@ -1,0 +1,53 @@
+#dummy test tables
+
+CREATE TABLE temp_node (
+	nid INT(10) UNSIGNED AUTO_INCREMENT,
+	comment TEXT,
+	PRIMARY KEY (nid)
+);
+
+CREATE TABLE temp_order (
+	oid INT(10) UNSIGNED AUTO_INCREMENT,
+	comment TEXT,
+	PRIMARY KEY (oid)
+
+);
+
+CREATE TABLE temp_zipcodes (
+	zip VARCHAR(16),
+	comment TEXT,
+	PRIMARY KEY (zip)
+);
+
+
+
+
+#dummy data
+
+INSERT INTO temp_node (comment) VALUES ('noderi1');
+INSERT INTO temp_node (comment) VALUES ('noderi2');
+INSERT INTO temp_node (comment) VALUES ('noderi3');
+
+INSERT INTO temp_order (comment) VALUES ('orderi1');
+INSERT INTO temp_order (comment) VALUES ('orderi2');
+INSERT INTO temp_order (comment) VALUES ('orderi3');
+
+INSERT INTO temp_zipcodes (zip,comment) VALUES (1,'ziperi1');
+INSERT INTO temp_zipcodes (zip,comment) VALUES (2,'ziperi2');
+INSERT INTO temp_zipcodes (zip,comment) VALUES (3,'ziperi3');
+
+
+#this data needs the real tables
+
+
+INSERT INTO UW_supplier (sid, name, zipcode) VALUES (1,'JEM AB',1);
+
+INSERT INTO UW_transporter (tid, name, zipcode) VALUES (1,'JEM Transport',1);
+
+INSERT INTO UW_preferred VALUES (1,1);
+
+INSERT INTO UW_routes (transporter_id, departure, destination) VALUES (1,2,3);
+
+INSERT INTO UW_suppliers_products VALUES (1,3);
+
+INSERT INTO UW_ships VALUES (1,2);

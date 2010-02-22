@@ -1,0 +1,64 @@
+
+#real deal
+
+CREATE TABLE uw_supplier (
+	sid INT(10) UNSIGNED,
+	name TEXT,
+	status VARCHAR(10),
+	contact_info TEXT,
+	zipcode VARCHAR(16),
+	since TIMESTAMP(8),
+	PRIMARY KEY (sid),
+	Foreign Key (zipcode) references zipcode(zip)
+
+);
+
+
+CREATE TABLE uw_transporter (
+	tid INT(10) UNSIGNED,
+	name TEXT,
+	status VARCHAR(10),
+	contact_info TEXT,
+	autonomous VARCHAR(3),
+	zipcode VARCHAR(16),
+	since TIMESTAMP(8),
+	PRIMARY KEY (tid),
+	Foreign Key (zipcode) references zipcode(zip)
+);
+
+CREATE TABLE uw_preferred (
+	supplier_id INT(10) UNSIGNED,
+	transporter_id INT(10) UNSIGNED,
+	Foreign Key (supplier_id) references uw_supplier(sid),
+	Foreign Key (transporter_id) references uw_transporter(tid)
+);
+
+CREATE TABLE uw_routes (
+	rid INT(20) UNSIGNED AUTO_INCREMENT,
+	transporter_id INT(10) UNSIGNED,
+	departure VARCHAR(16),
+	destination VARCHAR(16),
+	cost INT(11),
+	time_in_minutes INT(11),
+	departure_time VARCHAR(10),
+	PRIMARY KEY (rid),
+	Foreign Key (transporter_id) references uw_transporter(tid),
+	Foreign Key (departure) references zipcode(zip),
+	Foreign Key (destination) references zipcode(zip)
+);
+
+CREATE TABLE uw_suppliers_products (
+	supplier_id INT(10) UNSIGNED,
+	product_id INT(10) UNSIGNED,	
+	Foreign Key (supplier_id) references uw_supplier(sid),
+	Foreign Key (product_id) references uc_products(vid)
+
+);
+
+CREATE TABLE uw_ships (
+	route_id INT(20),
+	order_id INT(10),
+	Foreign Key (route_id) references uw_routes(rid),
+	Foreign Key (order_id) references uc_orders(order_id)
+
+);
