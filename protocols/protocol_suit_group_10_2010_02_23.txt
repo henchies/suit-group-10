@@ -1,0 +1,13 @@
+23-Feb-2010
+
+1. Quick Status Update.
+2. To do stuff : test report document, implement all P0 features, pass DG4 & DG5 , prepare demo, and start final project report. Project report DG6 for project report next week.
+3.  Priority is presenting the UI more attractive in any way possible.
+4. Expected Completion of implementation phase : Friday 26th. Testing to be started Thursday to the features which are implemented.
+5. Project Report: Sebastian to start lay out after Wednesday home exam stuff. And decision to be taken how to go about it after Wednesday home exam.
+
+Meetings : 
+
+6. Thursday sync up meeting--in room 6205 from 0800-1000 .
+7. Meeting with Per on Friday 13:20-14:00 in room 6205
+
